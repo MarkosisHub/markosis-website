@@ -1,0 +1,1080 @@
+/***************************************
+          Media 1400
+***************************************/
+@media (max-width: 1400px) {
+  .container {
+    max-width: 130rem;
+    margin: 0 auto;
+  }
+
+  html {
+    font-size: 58%;
+  }
+
+  /***************************************
+          Index Page
+***************************************/
+  /********** our services **********/
+  .all-services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 75%;
+    margin: auto;
+    text-align: center;
+  }
+
+  /********** pricing section **********/
+  #progress li {
+    display: grid;
+    grid-template-columns: 0.1fr 1.5fr;
+    align-items: center;
+  }
+}
+
+/***************************************
+          Media 1200
+***************************************/
+@media (max-width: 1200px) {
+  .container {
+    max-width: 110rem;
+    margin: 0 auto;
+  }
+
+  /***************************************
+          Index Page
+***************************************/
+  /***** banner section *****/
+
+  .banner-section {
+    padding: 7rem 0;
+  }
+
+  .banner {
+    grid-template-columns: 1fr;
+    text-align: center;
+    grid-gap: 5rem;
+  }
+
+  .banner-character img {
+    width: 50%;
+  }
+
+  /***** Our Services *****/
+
+  .digital-marketing-service {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+  }
+
+  .all-services {
+    width: 100%;
+  }
+
+  /********** pricing section **********/
+  .pricing {
+    display: block;
+  }
+
+  .pricing-heading {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+  }
+
+  #progress {
+    width: 70%;
+    margin: auto;
+    margin-top: 3rem;
+  }
+
+  #progress li {
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    align-items: center;
+    margin: auto;
+  }
+
+  #progress .divider {
+    height: 8rem;
+  }
+
+  #attributes {
+    margin-top: 5rem;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #attributes li {
+    background-color: #f8f8f8;
+    padding: 1rem 1.5rem;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0 2rem 2rem 0;
+  }
+
+  .pricing-attributes ul {
+    height: auto;
+  }
+
+  /* team banner */
+  .team-banner-content {
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
+
+  .team-banner-content img {
+    width: 50%;
+  }
+
+  .member h5 {
+    margin-top: 0;
+  }
+
+  /* designation */
+  .designation-content-one,
+  .designation-content-two,
+  .designation-content-three,
+  .designation-content-four {
+    padding: 0;
+  }
+
+  /* about banner */
+  .about-banner-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .about-banner-content-right img {
+    width: 100%;
+    height: 60rem;
+    object-fit: contain;
+  }
+
+  /* web design and development */
+  .web-design-and-development-banner-content {
+    grid-template-columns: 1fr;
+    grid-gap: 8rem;
+    text-align: center;
+  }
+
+  .web-design-and-development-banner-content img {
+    width: 50%;
+    /* animation: move 3s ease-out infinite; */
+  }
+
+  /* handcraft and design */
+  .handcraft-and-design-content-one,
+  .handcraft-and-design-content-two {
+    padding: 0;
+  }
+
+  /*  zero bugs and integrate */
+  .zero-bugs-and-integrate-content-one,
+  .zero-bugs-and-integrate-content-two {
+    padding: 0;
+  }
+
+  /* seo banner */
+  .seo-banner-content {
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
+
+  .seo-banner-content img {
+    width: 50%;
+  }
+
+  /* seo */
+  .seo-content {
+    text-align: center;
+  }
+
+  /* seo analysis */
+  .seo-analysis-content {
+    /* text-align: center; */
+    grid-template-columns: 1fr;
+  }
+
+  .seo-analysis-content-left {
+    text-align: center;
+  }
+
+  .seo-analysis-content-left img {
+    width: 40%;
+  }
+
+  /* ppc banner */
+  .ppc-banner-content {
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
+
+  .ppc-banner-content img {
+    width: 50%;
+  }
+
+  /* ppc analysis one & two */
+  .ppc-analysis-content-one,
+  .ppc-analysis-content-two {
+    grid-template-columns: 1fr;
+  }
+
+  .ppc-analysis-content-two .ppc-analysis-content-left {
+    order: 2;
+  }
+
+  .ppc-analysis-content-one .ppc-analysis-content-left,
+  .ppc-analysis-content-two .ppc-analysis-content-right {
+    text-align: center;
+  }
+
+  .ppc-analysis-content-one img,
+  .ppc-analysis-content-two img {
+    width: 40%;
+  }
+
+  /* social media */
+  .social-media-banner-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .social-media-banner-content img {
+    width: 50%;
+  }
+
+  /* branding planning banner */
+  .branding-planning-banner-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .branding-planning-banner-content img {
+    width: 50%;
+  }
+
+  /* business plan and create a pool */
+  .business-plan-and-pool-content-one,
+  .business-plan-and-pool-content-two {
+    padding: 0;
+  }
+
+  .brand-value-online-and-offline-content-one,
+  .brand-value-online-and-offline-content-two {
+    padding: 0;
+  }
+
+  /* marketing automation banner */
+  .marketing-automation-banner-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .marketing-automation-banner-content img {
+    width: 50%;
+  }
+
+  /* deploys and nurtures */
+  .deploys-and-nurtures-content-one,
+  .deploys-and-nurtures-content-two {
+    padding: 0;
+  }
+
+  /********** case study banner section **********/
+
+  .case-study-banner-section {
+    text-align: center;
+  }
+
+  .case-study-banner-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5rem;
+    align-items: center;
+    min-height: 70vh;
+  }
+
+  .case-study-banner-content img {
+    width: 60%;
+  }
+}
+
+/***************************************
+          Media 1000
+***************************************/
+@media (min-width: 999px) {
+  .bar {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    max-width: 90rem;
+    margin: 0 auto;
+  }
+
+  /* header */
+  .main-nav {
+    display: none;
+  }
+
+  /* modal */
+  .modal-header img {
+    width: 30rem;
+  }
+
+  /* Our Services */
+  .digital-marketing-service {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .digital-marketing-service-left img {
+    width: 50%;
+    height: auto;
+  }
+
+  /* why markosis */
+  .why-markosis-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* book */
+  .book-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+    grid-gap: 5rem;
+  }
+
+  .book-content img {
+    width: 50%;
+  }
+
+  /********** testimonial **********/
+  .review {
+    width: 90%;
+  }
+
+  .testimonial-image-container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4.5rem;
+  }
+
+  /********** get in touch **********/
+  .get-in-touch-content-left {
+    order: 2;
+  }
+
+  .get-in-touch-content-right {
+    text-align: center;
+  }
+
+  .get-in-touch-form {
+    text-align: center;
+  }
+
+  .get-in-touch-content {
+    grid-template-columns: 1fr;
+    grid-gap: 5rem;
+  }
+
+  .get-img1 {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 8rem;
+  }
+
+  .get-img2 {
+    position: absolute;
+    top: 3rem;
+    right: 0rem;
+    width: 12rem;
+  }
+
+  .get-img3 {
+    position: absolute;
+    bottom: 3rem;
+    left: 0rem;
+    width: 12rem;
+  }
+
+  .get-img4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20rem;
+  }
+
+  .modal-form {
+    display: block;
+  }
+
+  .modal-form input {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .modal-form .btn {
+    width: 100%;
+  }
+
+  /* team member */
+  .team-member {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10rem 4rem;
+    text-align: center;
+  }
+
+  /* footer */
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 4rem;
+    padding: 8rem 0;
+    text-align: center;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  /* what we do */
+  .what-we-do-wrapper {
+    text-align: center;
+    text-align-last: center;
+  }
+
+  .what-we-do-content {
+    grid-template-columns: 1fr;
+  }
+
+  .what-we-do-content-left {
+    order: 2;
+  }
+
+  .what-we-do-content img {
+    width: 60%;
+  }
+
+  /* why we do */
+  .why-we-do-wrapper {
+    text-align: center;
+    text-align-last: center;
+  }
+
+  .why-we-do-content {
+    grid-template-columns: 1fr;
+  }
+
+  .why-we-do-content img {
+    width: 60%;
+  }
+
+  .why-we-do-wrapper h4 {
+    text-align: center;
+  }
+
+  .why-we-do-content-left p {
+    text-align: center;
+  }
+
+  /* landing pages */
+  .landing-pages-wrapper {
+    text-align: center;
+    text-align-last: center;
+  }
+
+  .landing-pages-content {
+    grid-template-columns: 1fr;
+  }
+
+  .landing-pages-content-left {
+    order: 2;
+  }
+
+  .landing-pages-content img {
+    width: 60%;
+  }
+
+
+  /* facebook social media */
+  .facebook-social-media-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    grid-gap: 5rem;
+  }
+
+  .facebook-social-media-content img {
+    width: 40%;
+  }
+
+  .facebook-social-media-content-right {
+    text-align: center;
+  }
+
+  .facebook-social-media-content-left {
+    order: 2;
+  }
+
+  /* advertising and brand credibility */
+  .advertising-and-brand-credibility-content-one,
+  .advertising-and-brand-credibility-content-two {
+    padding: 0;
+  }
+
+  /* network and social media */
+  .network-and-social-media-content-one,
+  .network-and-social-media-content-two {
+    padding: 0;
+  }
+
+  /* brand planning offer */
+  .branding-planning-offer-content {
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
+
+  .branding-planning-offer-content-left {
+    order: 2;
+  }
+
+  .branding-planning-offer-content img {
+    width: 30%;
+  }
+
+  /* business automation */
+  .business-automation-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .business-automation-content img {
+    width: 35%;
+  }
+
+  .business-automation-content-left {
+    order: 2;
+  }
+
+  /* seo */
+  .seo-content {
+    /* display: grid; */
+    grid-template-columns: 1fr;
+    /* grid-gap: 5rem;
+    align-items: center; */
+  }
+
+  .seo-content img {
+    width: 60%;
+  }
+
+  /* all services */
+  .service-intro-heading {
+    width: 100%;
+  }
+
+  .service-description-one,
+  .service-description-two,
+  .service-description-three {
+    text-align: center;
+    margin-top: 5rem;
+    grid-template-columns: 1fr;
+    grid-gap: 5rem;
+  }
+
+  .service-description-one .service-description-content,
+  .service-description-three .service-description-content {
+    order: 2;
+  }
+
+  .service-description-image img {
+    width: 50%;
+  }
+
+  /* different services */
+  .different-services-heading {
+    width: 100%;
+    text-align: center;
+  }
+
+  .different-services-heading h3 {
+    line-height: 1.3;
+    text-transform: uppercase;
+    font-family: metropolis-bold;
+  }
+
+  .different-services-one,
+  .different-services-two,
+  .different-services-three,
+  .different-services-four {
+    text-align: center;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-gap: 5rem;
+    margin-top: 5rem;
+  }
+
+  .different-services-two .different-services-content,
+  .different-services-four .different-services-content {
+    order: 2;
+  }
+
+  .different-services-image img {
+    width: 50%;
+  }
+
+  /********** project complete section **********/
+
+  .project-complete-wrapper > h3,
+  .project-complete-wrapper > h6 {
+    width: 100%;
+  }
+
+  .project-complete-content {
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
+
+  .project-complete-content img {
+    width: 50%;
+  }
+
+  /* achievement of case study section */
+  .achievement-of-case-study-wrapper > h3,
+  .achievement-of-case-study-wrapper > p {
+    width: 100%;
+  }
+
+  .achievement-of-case-study-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* case study details */
+
+  .case-study-details-one,
+  .case-study-details-two,
+  .case-study-details-three,
+  .case-study-details-four {
+    text-align: center;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-gap: 5rem;
+    margin-top: 0rem;
+  }
+
+  .case-study-details-two .case-study-details-content,
+  .case-study-details-four .case-study-details-content {
+    order: 2;
+  }
+
+  .case-study-details-image img {
+    width: 50%;
+  }
+}
+
+/***************************************
+          Media 800
+***************************************/
+@media (max-width: 800px) {
+  .container {
+    max-width: 70rem;
+    margin: 0 auto;
+  }
+
+  html {
+    font-size: 55%;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 3.5rem;
+  }
+
+  h4 {
+    font-size: 3rem;
+  }
+
+  h5 {
+    font-size: 2.5rem;
+  }
+
+  h6 {
+    font-size: 2rem;
+  }
+
+  /* header */
+  .main-nav {
+    display: none;
+  }
+
+  /* banner */
+  .banner-character img {
+    width: 70%;
+  }
+
+  /* our services */
+  .all-services {
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
+
+  /* why markosis */
+  .why-markosis-content {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+
+  /********** testimonial **********/
+  .review {
+    width: 100%;
+  }
+
+  .circle1 {
+    width: 35%;
+  }
+
+  .circle2 {
+    width: 18%;
+  }
+
+  /* team banner */
+  .team-banner-content img {
+    width: 70%;
+  }
+
+  /********** pricing section **********/
+  .pricing-section {
+    background-size: 40%, 40%, 20%, 40%;
+  }
+
+  .pricing-heading {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+  }
+
+  #progress {
+    width: 100%;
+    margin: auto;
+    margin-top: 3rem;
+  }
+
+  #progress li h4 {
+    color: #d3d3d6;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-right: 1rem;
+  }
+
+  #progress li {
+    display: flex;
+    align-items: center;
+  }
+
+  /* designation */
+  .designation-content-one,
+  .designation-content-two,
+  .designation-content-three,
+  .designation-content-four {
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+
+  .designation-content-two .designation-content-left,
+  .designation-content-four .designation-content-left {
+    order: 2;
+  }
+
+  /* handcraft and design */
+  .handcraft-and-design-wrapper {
+    text-align: center;
+  }
+
+  .handcraft-and-design-content-one,
+  .handcraft-and-design-content-two {
+    grid-template-columns: 1fr;
+  }
+
+  .handcraft-and-design-content-two .handcraft-and-design-content-left {
+    order: 2;
+  }
+
+  .handcraft-and-design-wrapper img {
+    width: 50%;
+  }
+
+  /* zero-bugs-and-integrate */
+  .zero-bugs-and-integrate-wrapper {
+    text-align: center;
+  }
+
+  .zero-bugs-and-integrate-content-one,
+  .zero-bugs-and-integrate-content-two {
+    grid-template-columns: 1fr;
+  }
+
+  .zero-bugs-and-integrate-content-two .zero-bugs-and-integrate-content-left {
+    order: 2;
+  }
+
+  .zero-bugs-and-integrate-wrapper img {
+    width: 50%;
+  }
+
+  /* advertising and brand credibility */
+  .advertising-and-brand-credibility-content-one,
+  .advertising-and-brand-credibility-content-two {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .advertising-and-brand-credibility-content-two
+    .advertising-and-brand-credibility-content-left {
+    order: 2;
+  }
+
+  .advertising-and-brand-credibility-wrapper img {
+    width: 40%;
+  }
+
+  /* network and social media */
+  .network-and-social-media-content-one,
+  .network-and-social-media-content-two {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .network-and-social-media-wrapper img {
+    width: 40%;
+  }
+
+  .network-and-social-media-content-two .network-and-social-media-content-left {
+    order: 2;
+  }
+  /* business plan and create a pool */
+  .business-plan-and-pool-content-one,
+  .business-plan-and-pool-content-two {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .business-plan-and-pool-wrapper img {
+    width: 40%;
+  }
+
+  .business-plan-and-pool-content-two .business-plan-and-pool-content-left {
+    order: 2;
+  }
+
+  /* brand value online and offline */
+  .brand-value-online-and-offline-content-one,
+  .brand-value-online-and-offline-content-two {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .brand-value-online-and-offline-wrapper img {
+    width: 40%;
+  }
+
+  .brand-value-online-and-offline-content-two
+    .brand-value-online-and-offline-content-left {
+    order: 2;
+  }
+
+  /* deploys and nurtures */
+  .deploys-and-nurtures-content-one,
+  .deploys-and-nurtures-content-two {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .deploys-and-nurtures-content-two .deploys-and-nurtures-content-left {
+    order: 2;
+  }
+
+  .deploys-and-nurtures-wrapper img {
+    width: 40%;
+  }
+}
+
+/***************************************
+          Media 600
+***************************************/
+@media (max-width: 600px) {
+  .container {
+    width: 50rem;
+  }
+
+  h1 {
+    font-size: 4.2rem;
+    line-height: 1.4;
+  }
+
+  h2 {
+    font-size: 3.8rem;
+  }
+
+  h3 {
+    font-size: 3.2rem;
+  }
+
+  h4 {
+    font-size: 2.8rem;
+  }
+
+  h5 {
+    font-size: 2.3rem;
+  }
+
+  h6 {
+    font-size: 1.8rem;
+  }
+
+  /********** pricing section **********/
+  .pricing-heading {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+
+  #progress li h4 {
+    font-size: 2.5rem;
+    color: #d3d3d6;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-right: 1rem;
+  }
+
+  #attributes {
+    display: block;
+  }
+
+  #attributes li {
+    background-color: #f8f8f8;
+    padding: 1rem 1.5rem;
+    border-radius: 3px;
+    display: block;
+    margin: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  /* get in touch */
+  .get-in-touch-section {
+    background-position: bottom left, bottom right;
+    background-size: 10%, 20%;
+  }
+
+  /* real change */
+  .real-change-section {
+    background-position: top left, top right, bottom left, bottom right;
+    background-size: 10%, 20%, 10%, 30%;
+  }
+
+  /* team member */
+  .team-member {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10rem 4rem;
+    text-align: center;
+  }
+
+  /* .member img {
+    width: 26%;
+  } */
+  /* testimonial */
+  .prev2,
+  .next2 {
+    top: 70%;
+  }
+
+  /* achievement of case study */
+  .achievement-of-case-study-content {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+/***************************************
+          Media 500
+***************************************/
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+
+  /********** pricing section **********/
+  #progress li h4 {
+    font-size: 1.8rem;
+    color: #d3d3d6;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-right: 1rem;
+  }
+
+  /* get in touch */
+
+  .get-img1 {
+
+    width: 6rem;
+  }
+
+  .get-img2 {
+
+    width: 10rem;
+  }
+
+  .get-img3 {
+
+    width: 10rem;
+  }
+
+  .get-img4 {
+    width: 16rem;
+  }
+
+  
+.address-content {
+  padding: 7rem 3rem;
+}
+
+  /* services */
+  .all-services {
+    grid-template-columns: 1fr;
+    /* grid-gap: 3rem; */
+  }
+
+  .nav {
+    padding: 3.5rem 1rem;
+  }
+
+  .maintenance img {
+    /* width: rem;
+    height: 5rem; */
+    width: 10rem;
+    /* object-fit: cover; */
+  }
+
+  /* tesimonial */
+  .prev2,
+  .next2 {
+    top: 75%;
+  }
+}
